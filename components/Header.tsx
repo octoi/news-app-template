@@ -1,7 +1,9 @@
 import React from 'react';
+import Link from 'next/link';
 import IconButton from './header/IconButton';
 import PageDrawer from './header/PageDrawer';
 import { Flex, Text } from '@chakra-ui/react';
+import { companyName } from '@/data/data.json';
 import { HeaderIconsWrapper } from '@/styles/header.styled';
 import { BsNewspaper } from 'react-icons/bs';
 import {
@@ -13,9 +15,11 @@ import {
 export default function Header() {
   return (
     <Flex m={6} justifyContent='space-between'>
-      <Text fontWeight='bold' fontSize='3xl'>
-        TIC
-      </Text>
+      <Link href='/' passHref>
+        <Text cursor='pointer' fontWeight='bold' fontSize='2xl'>
+          {companyName}
+        </Text>
+      </Link>
 
       <HeaderIconsWrapper>
         <IconButton Icon={MdOutlineHome} redirectionPath='/' fontSize={30} />

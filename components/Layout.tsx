@@ -2,6 +2,7 @@ import { pageTitle, pageDescription } from '@/data/data.json';
 import React from 'react';
 import Head from 'next/head';
 import Header from './Header';
+import Footer from './Footer';
 
 interface Props {
   children: React.ReactNode;
@@ -23,6 +24,7 @@ export default function Layout({
 
       <Header />
       {children}
+      <Footer />
     </div>
   );
 }
