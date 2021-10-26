@@ -1,7 +1,7 @@
+import { pageTitle, pageDescription } from '@/data/data.json';
 import React from 'react';
 import Head from 'next/head';
-import { pageTitle, pageDescription } from '@/data/data.json';
-import { Container } from '@chakra-ui/react';
+import Header from './Header';
 
 interface Props {
   children: React.ReactNode;
@@ -20,6 +20,8 @@ export default function Layout({
         <title>{title}</title>
         <meta name='description' content={description} />
       </Head>
+
+      <Header />
       {children}
     </div>
   );
