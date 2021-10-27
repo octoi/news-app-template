@@ -1,5 +1,12 @@
 import Link from 'next/link';
-import { Flex, Grid, Text, Button } from '@chakra-ui/react';
+import {
+  Flex,
+  Grid,
+  Text,
+  Button,
+  Center,
+  Link as ChakraLink,
+} from '@chakra-ui/react';
 import { otherNewsTitle, otherNewsContent } from '@/data/index';
 import { Content } from '@/data/types';
 import { useWindowSize } from '@/hooks/useWindowSize';
@@ -57,6 +64,13 @@ export default function OtherNews() {
           </Flex>
         ))}
       </Grid>
+      <Center mt={10}>
+        <Link href='/news' passHref>
+          <ChakraLink color={appAccentColor} fontSize='xl'>
+            explore more
+          </ChakraLink>
+        </Link>
+      </Center>
     </Flex>
   );
 }
