@@ -1,8 +1,11 @@
-import { pageTitle, pageDescription } from '@/data/data.json';
 import React from 'react';
 import Head from 'next/head';
 import Header from './Header';
 import Footer from './Footer';
+import {
+  title as pageTitle,
+  description as pageDescription,
+} from '@/data/index';
 
 interface Props {
   children: React.ReactNode;

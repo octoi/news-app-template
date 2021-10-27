@@ -3,7 +3,7 @@ import Link from 'next/link';
 import IconButton from './header/IconButton';
 import PageDrawer from './header/PageDrawer';
 import { Flex, Text } from '@chakra-ui/react';
-import { companyName } from '@/data/data.json';
+import { company } from '@/data/index';
 import { HeaderIconsWrapper } from '@/styles/header.styled';
 import { BsNewspaper } from 'react-icons/bs';
 import {
@@ -17,7 +17,7 @@ export default function Header() {
     <Flex m={6} justifyContent='space-between'>
       <Link href='/' passHref>
         <Text cursor='pointer' fontWeight='bold' fontSize='2xl'>
-          {companyName}
+          {company}
         </Text>
       </Link>
 

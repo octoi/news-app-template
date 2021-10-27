@@ -1,5 +1,5 @@
 import { Container, Divider, Text } from '@chakra-ui/react';
-import { companyName } from '@/data/data.json';
+import { company } from '@/data/index';
 import { appTextSecondary } from '@/styles/colors';
 
 export default function Footer() {
@@ -9,7 +9,7 @@ export default function Footer() {
     <Container mt={20} mb={10} textAlign='center'>
       <Divider />
       <Text mt={6} color={appTextSecondary}>
-        &copy; {currentYear} {companyName}, All right reserved
+        &copy; {currentYear} {company}, All right reserved
       </Text>
     </Container>
   );
