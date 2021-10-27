@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.10",
@@ -26,6 +27,7 @@
     "@types/react": "17.0.33",
     "@types/slick-carousel": "^1.6.37",
     "@types/styled-components": "^5.1.15",
+    "babel-plugin-transform-define": "^2.0.1",
     "eslint": "8.1.0",
     "eslint-config-next": "11.1.2",
     "typescript": "4.4.4"
