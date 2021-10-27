@@ -19,12 +19,11 @@ export const mainNewsTitle: string = mainNews.title;
 export const otherNewsContent: Content[] = otherNews.news;
 export const otherNewsTitle: string = otherNews.title;
 
+// all news
+export const allNews = [...mainNewsContent, ...otherNewsContent];
+
 // all
-export const allContent = [
-  editorialContent,
-  ...mainNewsContent,
-  ...otherNewsContent,
-];
+export const allContent = [editorialContent, ...allNews];
 
 export const findOneContent = (id: string) => {
   return new Promise((resolve, reject) => {
