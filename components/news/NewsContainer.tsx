@@ -5,10 +5,10 @@ import NewsCard from './NewsCard';
 
 interface Props {
   title: string;
-  newsContent: Content[];
+  contents: Content[];
 }
 
-export default function NewsContainer({ title, newsContent }: Props) {
+export default function NewsContainer({ title, contents }: Props) {
   const { width } = useWindowSize();
   const itemInRowCount = width ? (width > 1000 ? 2 : 1) : 1;
 
@@ -23,7 +23,7 @@ export default function NewsContainer({ title, newsContent }: Props) {
         gap={3}
         mt={10}
       >
-        {newsContent.map((content: Content) => (
+        {contents.map((content: Content) => (
           <NewsCard key={content.id} content={content} />
         ))}
       </Grid>

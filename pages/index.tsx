@@ -1,3 +1,4 @@
+import ArticleSection from '@/components/home/ArticleSection';
 import EditorialPart from '@/components/home/EditorialPart';
 import MainNews from '@/components/home/MainNews';
 import OtherNews from '@/components/home/OtherNews';
@@ -9,6 +10,7 @@ export default function HomePage() {
       <EditorialPart />
       <MainNews />
       <OtherNews />
+      <ArticleSection />
     </Layout>
   );
 }
