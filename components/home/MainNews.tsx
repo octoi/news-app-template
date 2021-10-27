@@ -31,8 +31,8 @@ export default function MainNews() {
     : largeScreenSliderSettings;
 
   return (
-    <Flex mt={10} direction='column' textDecoration='underline' m={6}>
-      <Text fontSize='2xl' fontWeight='medium'>
+    <Flex direction='column' m={6} mt={10}>
+      <Text fontSize='2xl' textDecoration='underline' fontWeight='medium'>
         {mainNewsTitle}
       </Text>
 

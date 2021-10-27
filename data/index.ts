@@ -16,14 +16,14 @@ export const mainNewsContent: Content[] = mainNews.news;
 export const mainNewsTitle: string = mainNews.title;
 
 // others news
-export const OtherNewsContent: Content[] = otherNews.news;
-export const OtherNewsTitle: string = otherNews.title;
+export const otherNewsContent: Content[] = otherNews.news;
+export const otherNewsTitle: string = otherNews.title;
 
 // all
 export const allContent = [
   editorialContent,
   ...mainNewsContent,
-  ...OtherNewsContent,
+  ...otherNewsContent,
 ];
 
 export const findOneContent = (id: string) => {

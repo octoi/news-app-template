@@ -18,7 +18,15 @@ export default function MainNewsCard({ content }: Props) {
       m={2}
       p={4}
     >
-      {content.image && <Image src={content.image} alt={content.title} />}
+      {content.image && (
+        <Image
+          width='100%'
+          height={450}
+          fit='cover'
+          src={content.image}
+          alt={content.title}
+        />
+      )}
 
       <Flex mt={3} direction='column'>
         <Text
