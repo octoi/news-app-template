@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Flex, Text, Link as ChakraLink } from '@chakra-ui/react';
 import { editorialContent } from '@/data/index';
 import { appAccentColor, appSecondaryColor } from '@/styles/colors';
-import { useWindowSize } from 'hooks/useWindowSize';
+import { useWindowSize } from '@/hooks/useWindowSize';
 
 export default function EditorialPart() {
   const { width } = useWindowSize();

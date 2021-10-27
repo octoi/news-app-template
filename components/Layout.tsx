@@ -7,6 +7,10 @@ import {
   description as pageDescription,
 } from '@/data/index';
 
+// slick-carousel
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 interface Props {
   children: React.ReactNode;
   title?: string;
