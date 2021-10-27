@@ -41,7 +41,7 @@ export default function MainNewsCard({ content }: Props) {
       </Flex>
       <Link href={`/content/${content.id}`} passHref>
         <ChakraLink mt={5} color={appAccentColor} fontSize='xl'>
-          Read More
+          read more
         </ChakraLink>
       </Link>
     </Flex>

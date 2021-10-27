@@ -33,7 +33,7 @@ export default function EditorialPart() {
       </Flex>
       <Link href={`/content/${editorialContent.id}`} passHref>
         <ChakraLink mt={5} color={appAccentColor} fontSize='xl'>
-          Read More
+          read more
         </ChakraLink>
       </Link>
     </Flex>
