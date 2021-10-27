@@ -90,5 +90,47 @@
         "content": "Aliqua aute eu do proident quis culpa ut commodo proident incididunt veniam. Irure aliquip esse et pariatur aute laboris voluptate. Quis dolor dolor ipsum anim dolor. Commodo tempor magna ullamco anim sit commodo. Laboris velit sint voluptate magna consequat eiusmod esse dolore mollit ad culpa eiusmod ex est. Elit aute do irure occaecat culpa ipsum mollit. Fugiat est consequat culpa aliqua.Laboris esse aliqua eu minim aliqua reprehenderit excepteur sunt ullamco ex cillum enim minim velit. Enim fugiat duis aliqua irure. Aliqua cillum occaecat velit nisi irure. Id adipisicing fugiat elit aliqua irure in irure et sit cillum mollit quis labore. Qui occaecat consectetur est qui esse sit anim dolor eu excepteur."
       }
     ]
+  },
+
+  "media": {
+    "title": "Gallery",
+    "items": [
+      {
+        "author": "Rick Astley",
+        "content": "https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png",
+        "description": "Never gonna give you up",
+        "isVideo": false
+      },
+      {
+        "author": "Rick Astley",
+        "content": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "description": "Never gonna give you up",
+        "isVideo": true
+      },
+      {
+        "author": "Rick Astley",
+        "content": "https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png",
+        "description": "Never gonna give you up",
+        "isVideo": false
+      },
+      {
+        "author": "Rick Astley",
+        "content": "https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png",
+        "description": "Never gonna give you up",
+        "isVideo": false
+      },
+      {
+        "author": "Rick Astley",
+        "content": "https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png",
+        "description": "Never gonna give you up",
+        "isVideo": false
+      },
+      {
+        "author": "Rick Astley",
+        "content": "https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png",
+        "description": "Never gonna give you up",
+        "isVideo": false
+      }
+    ]
   }
 }

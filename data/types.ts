@@ -5,3 +5,10 @@ export interface Content {
   image: string | null;
   content: string;
 }
+
+export interface MediaContent {
+  author: string;
+  content: string;
+  description: string;
+  isVideo: boolean;
+}

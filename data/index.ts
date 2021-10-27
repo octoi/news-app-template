@@ -1,8 +1,9 @@
 import { pageTitle, pageDescription, companyName } from './data.json';
+import { Content, MediaContent } from './types';
 import { mainNews, otherNews } from './data.json';
 import { articles } from './data.json';
 import { editorial } from './data.json';
-import { Content } from './types';
+import { media } from './data.json';
 
 // trademarks
 export const title = pageTitle;
@@ -42,3 +43,7 @@ export const findOneContent = (id: string) => {
     resolve(content);
   });
 };
+
+// media contents
+export const mediaContentTitle: string = media.title;
+export const mediaContent: MediaContent[] = media.items;

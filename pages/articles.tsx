@@ -5,7 +5,7 @@ import { articlesContent, articlesTitle } from '../data';
 
 export default function ArticlePage() {
   return (
-    <Layout>
+    <Layout title='Articles'>
       <Flex m={6}>
         <NewsContainer title={articlesTitle} contents={articlesContent} />
       </Flex>
