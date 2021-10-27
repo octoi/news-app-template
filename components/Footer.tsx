@@ -6,7 +6,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <Container mt={20} textAlign='center'>
+    <Container mt={20} mb={10} textAlign='center'>
       <Divider />
       <Text mt={6} color={appTextSecondary}>
         &copy; {currentYear} {companyName}, All right reserved
