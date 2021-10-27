@@ -3,7 +3,7 @@ import { Flex } from '@chakra-ui/react';
 
 export const HeaderIconsWrapper = styled(Flex)`
   @media (max-width: 500px) {
-    display: none;
+    display: none !important;
   }
 `;
 
